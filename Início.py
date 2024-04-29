@@ -1,4 +1,4 @@
-
+#Tipagem estática 
 nome: str = "Luis"
 idade: int = 18
 peso: float = 50 
