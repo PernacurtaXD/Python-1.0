@@ -2,7 +2,7 @@ import os
 
 os.system("cls || clear")
 
-m = float(input("Digite quantos metros possue o objeto:"))
+m = int(input("Digite a distância em metros:"))
 
 cm = m * 100
 mm = m * 1000

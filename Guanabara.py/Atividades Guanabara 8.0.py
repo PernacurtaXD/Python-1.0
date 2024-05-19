@@ -11,4 +11,4 @@ raizq = numero**(1/2)
 
 print(f"O dobro de {numero} vale {dobro}")
 print(f"O triplo de {numero} vale {triplo}")
-print(f"A raiz quadrada de {numero} vale {raizq:.2}")
+print(f"A raiz quadrada de {numero} vale {raizq:.3}")
