@@ -2,21 +2,8 @@ import os
 
 os.system("cls || clear")
 
-largura = float(input("Qual é a largura da parede?"))
-altura = float(input("Qual é a altura da parede?"))
+real = float(input("Quanto você tem na carteira? R$"))
 
-area = altura * largura
+dolar = real / 3.27
 
-print(area
-
-
-
-
-
-
-
-
-
-
-
-)
+print(f"Com R$ {real:.2f}, você pode comprar US$ {dolar:.2f}")
