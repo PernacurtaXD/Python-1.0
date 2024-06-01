@@ -1,12 +1,10 @@
 import os 
 
-
-
 os.system("cls || clear")
 desconto = 0.5
 
-preço = float(input("Digite um número:"))
+preço = float(input("Digite o preço do produto:"))
 
-preçoAlterado = preço - desconto
+preçoAlterado = preço - (preço * 5/100)
 
-print(f"Preço com desconto de R$ {preçoAlterado}")
+print(f"Preço com desconto de 5% vale R$ {preçoAlterado:.2f}")
