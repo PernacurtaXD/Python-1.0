@@ -1,7 +1,7 @@
 import os 
 
 os.system("cls || clear")
-desconto = 0.5
+
 
 preço = float(input("Digite o preço do produto:"))
 
