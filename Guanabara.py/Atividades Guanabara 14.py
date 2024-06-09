@@ -4,6 +4,6 @@ os.system("cls || clear")
 
 salarioAtual = float(input("Digite seu salário atual:"))
 
-salarioAjustado = salarioAtual + 0.15
+salarioAjustado = salarioAtual + (salarioAtual * 15 / 100)
 
-print(salarioAjustado)
+print(f"Salário com aumento de R${salarioAjustado:.2f}")
