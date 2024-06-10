@@ -19,6 +19,8 @@ if morango >= 8:
     os.system("cls || clear")  
     preco = morango * 2.20 
     
+    desconto = preco - (preco * 10 / 100)  
+    
     if preco >= 25.00:
     
      desconto = preco - (preco * 10 / 100)   
