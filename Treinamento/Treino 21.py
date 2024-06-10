@@ -15,16 +15,13 @@ if morango > 5:
     print(f"O usuário adquiri {morango}kg, com preço de R${preco:.2f}")
 
 
-if morango >= 8:
+if morango >= 8 or preco >= 25:
     os.system("cls || clear")  
     preco = morango * 2.20 
     
     desconto = preco - (preco * 10 / 100)  
     
-    if preco >= 25.00:
-    
-     desconto = preco - (preco * 10 / 100)   
-     print(f"O usuário adquiriu {morango}kg, com 10% de desconto no preço de R${desconto:.2f}")
+    print(f"O usuário adquiriu {morango}kg, com 10% de desconto no preço de R${desconto:.2f}")
 
 
    
