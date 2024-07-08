@@ -5,6 +5,8 @@ def cab():
 
 QUANT = 4
 
+os.system("cls || clear")
+
 def Notas():
     notas = []
     soma = 0 
