@@ -5,6 +5,7 @@ class Calculadora:
 class CalculadoraCientifica:
     pass
 
+
 def soma():
     pass
 
@@ -14,3 +15,7 @@ def soma_dois():
 numero = 4
 
 numero_impar = 5
+
+
+if 'a' in 'banana':
+    print("a")    
