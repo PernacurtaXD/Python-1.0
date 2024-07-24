@@ -11,4 +11,4 @@ for i in range(2):
 
 media = soma / 2
 
-print()
+print("Média: {:.1f}".format(media))
