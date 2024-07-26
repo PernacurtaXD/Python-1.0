@@ -92,4 +92,24 @@ algo (1)
 #Faça 
 algo(1)
 
+#Não faça 
+dict ['chave'] = lista [indice]
+
+#Faça 
+dict['chave'] = lista[indice]
+
+#Não faça 
+x              = 1
+y              = 3
+variavel_longa = 5
+
+#Faça
+x = 1
+y = 3
+variavel_longa = 5
+
+[7] - Termine sempre uma instrução  com uma nova linha
+-No final do código, para encerrar é necessário deixar uma linha em branco
+
 """
+
