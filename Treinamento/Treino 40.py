@@ -2,7 +2,7 @@ import os
 
 os.system("cls || clear")
 
-reais = float(input("Quanto você tem na carteira:"))
+reais = float(input("Quanto você tem na carteira:R$"))
 
 dolar = reais / 3.27
 
